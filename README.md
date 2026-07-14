@@ -27,6 +27,10 @@ uv pip install torch --index-url https://download.pytorch.org/whl/cu128
 uv pip install matplotlib opencv-python
 ```
 
+**SAM 3.1 is a gated model.** Request access on its Hugging Face page first —
+<https://huggingface.co/facebook/sam3.1> — and log in (`hf auth login`) with an
+account that has been granted access, or the checkpoint download will fail.
+
 Verified working versions in this venv: `torch 2.11.0+cu128`, `matplotlib
 3.11.0`, `opencv-python 5.0.0`, `numpy 2.5.1`, Python 3.13.
 
